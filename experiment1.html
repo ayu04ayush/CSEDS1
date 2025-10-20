@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Course Curriculum — Example Page</title>
+  <style>
+    :root{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; color:#111}
+    body{max-width:900px;margin:28px auto;padding:24px;line-height:1.6}
+    header{border-bottom:2px solid #eee;padding-bottom:12px;margin-bottom:18px}
+    h1{font-size:28px;margin:0}
+    h2{font-size:22px;margin-top:18px}
+    h3{font-size:18px;margin-top:14px}
+    .example{background:#fafafa;border:1px solid #eee;padding:12px;border-radius:8px}
+    code{background:#f3f3f3;padding:2px 6px;border-radius:4px;font-family: monospace}
+    .note{font-size:0.95rem;color:#444}
+    footer{margin-top:28px;border-top:1px dashed #ddd;padding-top:12px;color:#666}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Course Curriculum: HTML Text & Lists Demo</h1>
+    <p class="note">This single-page example shows headings, paragraphs, text styling, special characters, and many list types.</p>
+  </header>
+
+  <section>
+    <h2>Headings</h2>
+    <p class="example">
+      <strong>H1:</strong> The page title is shown with an <code>&lt;h1&gt;</code> tag. Below are smaller heading levels:
+    </p>
+    <h1>Heading level 1 — &lt;h1&gt;</h1>
+    <h2>Heading level 2 — &lt;h2&gt;</h2>
+    <h3>Heading level 3 — &lt;h3&gt;</h3>
+    <h4>Heading level 4 — &lt;h4&gt;</h4>
+  </section>
+
+  <section>
+    <h2>Paragraphs and Text Styles</h2>
+    <p>This is a normal paragraph. Use <strong>bold</strong> to emphasize important words, <em>italic</em> for emphasis or titles, and <u>underline</u> when you need to underline text.</p>
+    <p class="example">Example with mixed styles: <strong>Important:</strong> Please read the <em>course rules</em> carefully — failure to comply can result in <u>grade penalties</u>.</p>
+
+    <h3>Special Characters</h3>
+    <p>HTML requires certain characters to be escaped. Examples:
+      <ul>
+        <li><code>&amp;amp;</code> renders as &amp;</li>
+        <li><code>&amp;lt;</code> renders as &lt;</li>
+        <li><code>&amp;gt;</code> renders as &gt;</li>
+        <li>Other symbols: © (copyright), ™ (trademark), ± (plus/minus), é (<code>&amp;eacute;</code>)</li>
+      </ul>
+    </p>
+  </section>
+
+  <section>
+    <h2>Lists</h2>
+
+    <h3>Ordered List (Steps)</h3>
+    <ol>
+      <li>Introduction to the course</li>
+      <li>Fundamental concepts
+        <ol>
+          <li>Topic A</li>
+          <li>Topic B</li>
+        </ol>
+      </li>
+      <li>Assessment and project submission</li>
+    </ol>
+
+    <h3>Unordered List (Bulleted)</h3>
+    <ul>
+      <li>Core readings</li>
+      <li>Recommended tools</li>
+      <li>Office hours</li>
+    </ul>
+
+    <h3>Description List (Definition / Term List)</h3>
+    <dl>
+      <dt>Lecture</dt>
+      <dd>A structured presentation covering a syllabus topic.</dd>
+
+      <dt>Lab</dt>
+      <dd>Hands-on session to practice concepts and tools.</dd>
+
+      <dt>Assessment</dt>
+      <dd>Quizzes, midterms, final exam, and project evaluations.</dd>
+    </dl>
+
+    <h3>Nested Lists</h3>
+    <p>Nested lists help group sub-items under a parent item:</p>
+    <ul>
+      <li>Module 1
+        <ul>
+          <li>Lesson 1.1</li>
+          <li>Lesson 1.2</li>
+        </ul>
+      </li>
+      <li>Module 2
+        <ul>
+          <li>Lesson 2.1</li>
+          <li>Lesson 2.2
+            <ul>
+              <li>Exercise 2.2.1</li>
+              <li>Exercise 2.2.2</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>Mixed Lists (Ordered + Unordered)</h3>
+    <p>Mixing list types is common for structured curriculums:</p>
+    <ol>
+      <li>Week 1
+        <ul>
+          <li>Reading: Chapter 1</li>
+          <li>Assignment: Problem set 1</li>
+        </ul>
+      </li>
+      <li>Week 2
+        <ul>
+          <li>Reading: Chapter 2</li>
+          <li>Lab: Setup development environment</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Example Curriculum (Short)</h2>
+    <p class="example">
+      <strong>Course:</strong> Introduction to Web Development<br>
+      <strong>Duration:</strong> 8 weeks<br>
+      <strong>Format:</strong> Lectures + Labs + Project
+    </p>
+
+    <h3>Weekly Outline</h3>
+    <ol>
+      <li>HTML basics — elements, attributes, text formatting</li>
+      <li>CSS fundamentals — selectors, box model</li>
+      <li>JavaScript basics — variables, functions</li>
+      <li>DOM & events — interactivity</li>
+      <li>Working with APIs — fetch & JSON</li>
+      <li>Build tools & workflow</li>
+      <li>Project work</li>
+      <li>Final presentations & assessment</li>
+    </ol>
+  </section>
+
+  <footer>
+    <p>Want changes? Tell me which parts to modify (styling, sections, or content) and I'll update the page.</p>
+  </footer>
+</body>
+</html>
