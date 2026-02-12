@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Menu Example</title>
+
+    <style>
+         h2 {
+            background-color: lightblue;
+            padding: 10px;
+        }
+
+        .inline-text {
+            color: red;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+        li {
+            display: inline-block;   
+            padding: 15px 20px;
+            color: white;
+        }
+
+        li:hover {
+            background-color: gray;
+        }
+        .left-box {
+            float: left;
+            width: 45%;
+            background-color: lightgreen;
+            padding: 20px;
+        }
+
+        .right-box {
+            float: right;
+            width: 45%;
+            background-color: lightcoral;
+            padding: 20px;
+        }
+        .clear-box {
+            clear: both;
+            background-color: lightgray;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+   <h2>Navigation Menu (Block Element)</h2>
+   <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+    </ul>
+ <br>
+ <p>
+        This is a <span class="inline-text">Inline Element</span> example.
+    </p>
+
+    <br>
+    <div class="left-box">
+        This box is floated to LEFT.
+    </div>
+    <div class="right-box">
+        This box is floated to RIGHT.
+    </div>
+    <div class="clear-box">
+        This box uses CLEAR to move below floated elements.
+    </div>
+
+</body>
+</html>
